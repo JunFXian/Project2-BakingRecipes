@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="media_seek_bar_weight">1</integer>
+    <integer name="widget_update_period">7200000</integer>
+    <integer name="max_random_range">100</integer>
+
+</resources>

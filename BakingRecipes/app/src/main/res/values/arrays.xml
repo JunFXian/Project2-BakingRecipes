@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_items">
+        <item>@string/action_about</item>
+    </string-array>
+    <string-array name="detail_drawer_items">
+        <item>@string/action_recipes</item>
+        <item>@string/action_about</item>
+    </string-array>
+    <string-array name="detail_step_drawer_items">
+        <item>@string/action_recipes</item>
+        <item>@string/action_recipe_details</item>
+        <item>@string/action_about</item>
+    </string-array>
+</resources>

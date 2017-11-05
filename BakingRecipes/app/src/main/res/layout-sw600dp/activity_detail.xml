@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--https://github.com/udacity/Android_Me-->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Display the static detail page -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_padding_left"
+        android:paddingStart="@dimen/activity_padding_left"
+        android:paddingRight="@dimen/activity_padding_right"
+        android:paddingEnd="@dimen/activity_padding_right"
+        android:paddingTop="@dimen/activity_padding_top"
+        android:paddingBottom="@dimen/activity_padding_bottom"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        tools:context=".DetailActivity">
+        <!--This layout is a two-pane layout for the master/detail flow-->
+        <!-- The MasterListFragment -->
+        <fragment
+            android:id="@+id/master_list_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="com.udacity.jun.bakingrecipes.fragments.MasterListFragment"
+            tools:layout="@layout/fragment_master_list" />
+        <!-- A small divider -->
+        <View
+            android:id="@+id/detail_divider"
+            style="@style/Divider"/>
+        <!-- The StepDetailFragment -->
+        <LinearLayout
+            android:id="@+id/step_detail_linear_layout_tablet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_padding_bottom"
+            android:paddingLeft="@dimen/activity_padding_left"
+            android:paddingStart="@dimen/activity_padding_left"
+            android:paddingRight="@dimen/activity_padding_right"
+            android:paddingEnd="@dimen/activity_padding_right"
+            android:paddingTop="@dimen/activity_padding_top">
+            <FrameLayout
+                android:id="@+id/step_detail_container_tablet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+    <ListView
+        android:id="@+id/detail_left_drawer"
+        android:layout_width="@dimen/left_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/left_drawer_white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/left_drawer_divider_height" />
+</android.support.v4.widget.DrawerLayout>

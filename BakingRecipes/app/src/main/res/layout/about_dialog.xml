@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--https://stackoverflow.com/questions/18867029/how-to-show-pop-up-window-in-android-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true">
+    <TextView
+        android:id="@+id/about_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/about_dialog_title_padding_top"
+        android:paddingBottom="@dimen/about_dialog_title_padding_bottom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="@string/about_dialog_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <View
+        android:id="@+id/dialog_divider"
+        style="@style/Divider_horizontal"
+        android:layout_below="@+id/about_dialog_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/about_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/about_dialog_padding_top"
+        android:paddingBottom="@dimen/about_dialog_padding_bottom"
+        android:paddingLeft="@dimen/about_dialog_padding_left"
+        android:paddingStart="@dimen/about_dialog_padding_left"
+        android:paddingRight="@dimen/about_dialog_padding_right"
+        android:paddingEnd="@dimen/about_dialog_padding_right"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="@string/about_dialog"
+        android:layout_below="@+id/dialog_divider"/>
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/about_dialog"/>
+</RelativeLayout>

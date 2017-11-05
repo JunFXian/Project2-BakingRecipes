@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#778899</color>
+    <color name="media_dark">#CC000000</color>
+    <color name="media_white">#FFBEBEBE</color>
+    <color name="left_drawer_white">#FFBEBEBE</color>
+    <color name="card_background_green">#90EE90</color>
+    <color name="green">#90EE90</color>
+    <color name="widget_background_blue">#09C</color>
+
+</resources>

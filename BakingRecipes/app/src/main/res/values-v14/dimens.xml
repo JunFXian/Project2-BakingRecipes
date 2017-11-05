@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">0dp</dimen>
+    <dimen name="widget_text_view_margin">8dp</dimen>
+    <dimen name="widget_listview_margin_top">3dp</dimen>
+    <dimen name="widget_listview_margin_left">3dp</dimen>
+    <dimen name="widget_listview_margin_bottom">5dp</dimen>
+
+</resources>

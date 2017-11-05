@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Baking Recipes</string>
+    <string name="detail_name">Recipe Name</string>
+    <string name="toast_msg_no_result">No recipes</string>
+    <string name="no_internet_connection">No Internet. Connecting&#8230;</string>
+    <string name="action_about">About</string>
+    <string name="action_recipes">Home</string>
+    <string name="action_recipe_details">Recipe details</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="steps_title">Steps</string>
+    <string name="single_step_title">Step</string>
+    <string name="fake_recipe_name">Recipe Name</string>
+    <string name="fake_ingredient_name">name</string>
+    <string name="fake_ingredient_quantity">1 item</string>
+    <string name="fake_step_name">step name</string>
+    <string name="fake_step_description">step description\n\n\n</string>
+    <string name="bundle_key_selected_recipe">SelectedRecipe</string>
+    <string name="bundle_key_step_id">StepId</string>
+    <string name="bundle_key_row_name">RowName</string>
+    <string name="bundle_key_recipe_array">RecipeArray</string>
+    <string name="previous_step_button">Previous Step</string>
+    <string name="next_step_button">Next Step</string>
+    <string name="previous_step_button_land">Prev</string>
+    <string name="next_step_button_land">Next</string>
+    <string name="about_dialog_title">About</string>
+    <string name="about_dialog">Created by Jun Xian for Udacity Android Developer Nanodegree project 2.</string>
+    <string name="ok_button">OK</string>
+    <string name="widget_goto_home_text">Please select recipe</string>
+    <string name="widget_icon_description">source: http://icons.iconarchive.com/icons/atyourservice/service-categories/512/Cooking-icon.png</string>
+    <string name="widget_ingredients_title">Recipe name ingredients</string>
+    <string name="widget_empty_view_text">No ingredients</string>
+    <string name="exoplayer_button_image">exoplayer buttons</string>
+    <string name="cardview_image_description">recipe image</string>
+
+</resources>

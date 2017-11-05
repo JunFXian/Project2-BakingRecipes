@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/step_item_padding_top"
+    android:paddingBottom="@dimen/step_item_padding_bottom"
+    android:paddingLeft="@dimen/step_item_padding_left"
+    android:paddingStart="@dimen/step_item_padding_left"
+    android:paddingRight="@dimen/step_item_padding_right"
+    android:paddingEnd="@dimen/step_item_padding_right">
+    <TextView
+        android:id="@+id/step_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/step_text_padding_left"
+        android:paddingLeft="@dimen/step_text_padding_left"
+        android:paddingRight="@dimen/step_text_padding_right"
+        android:paddingEnd="@dimen/step_text_padding_right"
+        android:paddingTop="@dimen/step_text_padding_top"
+        android:paddingBottom="@dimen/step_text_padding_bottom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintLeft_toRightOf="parent"
+        tools:text="@string/fake_step_name"
+        android:background="@color/grey"/>
+</LinearLayout>

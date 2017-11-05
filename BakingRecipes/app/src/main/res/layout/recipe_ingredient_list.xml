@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/ingredient_item_padding_bottom"
+    android:paddingLeft="@dimen/ingredient_item_padding_left"
+    android:paddingStart="@dimen/ingredient_item_padding_left"
+    android:paddingRight="@dimen/ingredient_item_padding_right"
+    android:paddingEnd="@dimen/ingredient_item_padding_right"
+    android:paddingTop="@dimen/ingredient_item_padding_top">
+    <TextView
+        android:id="@+id/ingredient_name"
+        android:layout_width="@dimen/ingredient_name_width"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:paddingStart="@dimen/ingredient_name_padding_left"
+        android:paddingLeft="@dimen/ingredient_name_padding_left"
+        android:paddingRight="@dimen/ingredient_name_padding_right"
+        android:paddingEnd="@dimen/ingredient_name_padding_right"
+        app:layout_constraintLeft_toRightOf="parent"
+        tools:text="@string/fake_ingredient_name"/>
+    <TextView
+        android:id="@+id/ingredient_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:paddingStart="@dimen/ingredient_quantity_padding_left"
+        android:paddingLeft="@dimen/ingredient_quantity_padding_left"
+        android:paddingRight="@dimen/ingredient_quantity_padding_right"
+        android:paddingEnd="@dimen/ingredient_quantity_padding_right"
+        app:layout_constraintLeft_toRightOf="@+id/ingredient_name"
+        tools:text="@string/fake_ingredient_quantity" />
+</android.support.constraint.ConstraintLayout>

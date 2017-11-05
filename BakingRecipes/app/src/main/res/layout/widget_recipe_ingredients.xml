@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ingredients_background">
+    <TextView
+        android:id="@+id/widget_ingredients_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/ingredients_title_padding_top"
+        android:paddingBottom="@dimen/ingredients_title_padding_bottom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        tools:text="@string/widget_ingredients_title"/>
+    <!--background source: https://img1.etsystatic.com/117/0/8583516/il_570xN.904385793_aobm.jpg-->
+    <ListView
+        android:id="@+id/widget_ingredients_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_listview_height"
+        android:layout_gravity="start"
+        android:layout_marginTop="@dimen/widget_listview_margin_top"
+        android:layout_marginLeft="@dimen/widget_listview_margin_left"
+        android:layout_marginStart="@dimen/widget_listview_margin_left"
+        android:paddingBottom="@dimen/widget_listview_padding_bottom"
+        android:layout_marginBottom="@dimen/widget_listview_margin_bottom"/>
+    <!-- Empty view is show if list items are empty -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/widget_empty_view_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/widget_text_view_size"
+        android:visibility="gone" />
+</LinearLayout>

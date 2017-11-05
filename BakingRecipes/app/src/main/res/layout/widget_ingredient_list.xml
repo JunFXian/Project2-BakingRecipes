@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_ingredient_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceListItem"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/ingredient_item_padding_left"
+    android:paddingStart="@dimen/ingredient_item_padding_left"
+    android:paddingRight="@dimen/ingredient_item_padding_right"
+    android:paddingEnd="@dimen/ingredient_item_padding_right"
+    android:textColor="@color/black"
+    tools:text="@string/fake_ingredient_name"/>
